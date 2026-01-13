@@ -10,9 +10,7 @@ BOT_TOKEN = "8551649985:AAFXK9U4kCOe6fCKQAl9mKJqKvECEUyBDK8"
 bot = Bot(token=BOT_TOKEN)
 
 GROUP_IDS = [
-    -1003361941052,
-    -1002076058429,
-    -1003512657207,
+    -1003671703830,
   
 ]
 
@@ -129,19 +127,19 @@ def format_message(record):
 <blockquote>📩 Full Message:</blockquote>
 <pre>{msg}</pre>
 
-Powered by Junaid Niz 💗 
+Powered by Queen 👑 
 """
 
 
 async def send_to_all_groups(message):
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [
-            InlineKeyboardButton(text="📱 Channel", url="https://t.me/jndtech1"),
-            InlineKeyboardButton(text="☎️ Numbers", url="https://t.me/+c4VCxBCT3-QzZGFk")
+            InlineKeyboardButton(text="📱 Channel", url="https://t.me/LegendNumber92"),
+            InlineKeyboardButton(text="☎️ Numbers", url="https://t.me/LegendNumber92")
         ],
         [
             InlineKeyboardButton(text="👨‍💻 Developer", url="https://t.me/junaidniz786"),
-            InlineKeyboardButton(text="📣 YouTube", url="https://youtube.com/@junaidniz786?si=tQFOJbg7aDL5XpG7")
+            InlineKeyboardButton(text="🟢 Whatsapp", url="https://whatsapp.com/channel/0029Vb7TrKS2kNFqNa0SRI3C")
         ]
     ])
 
